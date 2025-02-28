@@ -1,0 +1,1 @@
+# Ask the user to enter the current day of the week
