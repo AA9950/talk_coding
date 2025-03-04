@@ -1,20 +1,32 @@
-# Ask the user to enter the current day of the week
+#-----------------------------------------------------------------------------
+# Name:        Conditional Statements (conditionalStatements.py)
+# Purpose:     To provide information about how conditional statements (if)
+#			   work in Python
+#
+# Author:      Mr. Abdalle
+# Created:     28-Feb-2025
+# Updated:     28-Feb-2025
+#-----------------------------------------------------------------------------
+
+
+
+
+print("Welcome to the Day of the Week Activity Recommender!")
 day = input("Enter the current day of the week: ")
 
-# Check what the day is and print the appropriate message
-if day == "Monday":
+if day == "monday":
     print("Start your week with a workout!")
-elif day == "Tuesday":
+elif day == "tuesday":
     print("It's a great day to read a book!")
-elif day == "Wednesday":
+elif day == "wednesday":
     print("Mid-week movie night!")
-elif day == "Thursday":
+elif day == "thursday":
     print("Try a new recipe!")
-elif day == "Friday":
+elif day == "friday":
     print("Relax and enjoy the weekend!")
-elif day == "Saturday":
+elif day == "saturday":
     print("Go for a hike!")
-elif day == "Sunday":
+elif day == "sunday":
     print("Prepare for the week ahead with some self-care.")
 else:
     print("Invalid day. Please check your input.")
