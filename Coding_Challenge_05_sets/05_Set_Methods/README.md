@@ -16,3 +16,4 @@ method to remove a random element from the set data and print the modified set
 EX: data_copy.clear()
 print("after clear:", data_copy)
 method to clearly a from the empty set data and print the modified set
+
